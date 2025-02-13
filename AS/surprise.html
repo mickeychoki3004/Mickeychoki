@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise for My Love ❤️</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle, #1a1a2e, #0f3460);
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            box-sizing: border-box;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 90%;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
+            text-align: center;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            text-shadow: 0 0 10px rgba(255, 105, 180, 0.8);
+            animation: glow 1.5s infinite alternate;
+            margin-bottom: 10px;
+        }
+
+        .message {
+            font-size: 1.1rem;
+            color: #ff85a2;
+            text-align: justify;
+            line-height: 1.6;
+            font-weight: 500;
+            margin-top: 10px;
+            padding: 0 10px;
+        }
+
+        .heart {
+            font-size: 40px;
+            animation: pulse 1.5s infinite;
+            background: linear-gradient(45deg, #ff007f, #00bfff);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-top: 15px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            background: linear-gradient(45deg, #ff007f, #00bfff);
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+            transition: transform 0.2s, box-shadow 0.3s;
+        }
+
+        .button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(0, 191, 255, 0.8);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 10px rgba(255, 105, 180, 0.8); }
+            to { text-shadow: 0 0 20px rgba(0, 191, 255, 0.8); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .message {
+                font-size: 1rem;
+                text-align: center;
+                padding: 0 5px;
+            }
+
+            .heart {
+                font-size: 35px;
+            }
+
+            .button {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .message {
+                font-size: 0.9rem;
+            }
+
+            .heart {
+                font-size: 30px;
+            }
+
+            .button {
+                padding: 8px 15px;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Love! ❤️</h1>
+        <p class="message">
+            To My Dearest Love Sobana ❤️, you are the light that turns my shadows into sunshine, the melody that fills my soul with joy, and the love that makes my heart race with excitement. Every moment with you is a beautiful dream I never want to wake up from. Your smile is my favorite sight, brighter than the stars, more comforting than a thousand warm embraces. It is a silent promise of love, a spark of magic, and the one thing that can lift my spirit no matter what. You are my forever, my home, and my greatest adventure. No matter where life takes us, my love for you will remain as unshakable as the mountains, as infinite as the sky. "In your laughter, I find music. In your touch, I find warmth. In your love, I find myself." Happy Valentine’s Day, my love! Keep smiling, for that is where I truly live❤️✨, And finally keep that valuable and golden smile in your heart always. Love you lots, di chella pondati ❤️✨.
+        </p>
+        <p class="heart">❤️ AS ❤️</p>
+        <button class="button" onclick="goBack()">Back to Main Page</button>
+    </div>
+
+    <script>
+        function goBack() {
+            window.location.href = "AS.html";
+        }
+    </script>
+
+</body>
+</html>
